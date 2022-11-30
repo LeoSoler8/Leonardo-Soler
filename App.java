@@ -19,7 +19,7 @@ public class HelloWorld {
 
    System.out.println(lista);
 
-   System.out.println("--------------------------------------------");
+   System.out.println("");
 
    System.out.println("Removendo os dados da celula inicial da lista");
 
@@ -33,7 +33,7 @@ public class HelloWorld {
 
        System.out.println("Lista vazia!");
 
-       System.out.println("--------------------------------------------");
+       System.out.println("");
 
        
 
@@ -53,7 +53,7 @@ public class HelloWorld {
 
    System.out.println(pilha);
 
-   System.out.println("--------------------------------------------");
+   System.out.println("");
 
    System.out.println("Remove os dados da pilha");
 
@@ -61,7 +61,7 @@ public class HelloWorld {
 
    System.out.println(pilha);
 
-   System.out.println("--------------------------------------------");
+   System.out.println("");
 
    while(!pilha.isEmpty()) {
 
@@ -97,7 +97,7 @@ public class HelloWorld {
 
    System.out.println(fila);
 
-   System.out.println("--------------------------------------------");
+   System.out.println("");
 
    System.out.println("Adicionando os numeros 6,7,8,9,10 na lista");
 
@@ -113,7 +113,7 @@ public class HelloWorld {
 
    System.out.println(lista);
 
-   System.out.println("--------------------------------------------");
+   System.out.println("");
 
    System.out.println("Removendo os dados das celulas iniciais da lista");
 
@@ -127,7 +127,7 @@ public class HelloWorld {
 
    System.out.println("Lista vazia!");
 
-   System.out.println("--------------------------------------------");
+   System.out.println("");
 
    System.out.println("Inserindo os dados da lista na pilha");
 
@@ -143,7 +143,7 @@ public class HelloWorld {
 
    System.out.println(pilha);
 
-   System.out.println("--------------------------------------------");
+   System.out.println("");
 
    System.out.println("Removendo os dados da pilha");
 
@@ -151,7 +151,7 @@ public class HelloWorld {
 
    System.out.println(pilha);
 
-   System.out.println("--------------------------------------------");
+   System.out.println("");
 
    System.out.println("inserindo os dados da pilha na fila");
 
@@ -182,3 +182,7 @@ public class HelloWorld {
 }
 
 }
+
+## Os numeros não ficam na mesma ordem,a remoção peolo incio no passo 2,
+##você deixa os  numeros no final da pilha,ao se mandar a pilha fica da seguinte maneira 5,4,3,2,1 ao se desepilhar e eviar para fila
+##ira desipilhar pela seguinte ordem 5,4,3,2,1.Com isso aa ordem sai errado.
